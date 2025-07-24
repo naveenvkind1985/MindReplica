@@ -389,7 +389,7 @@ export const TestimonialsSection = () => {
       role: "Data Scientist at Microsoft",
       date: "February 2025",
       rating: 5,
-      text: "Used it for 6 different interviews and got offers from 5 companies. The personalized responses based on my resume were spot-on. Worth every penny!",
+      text: "Used it for 6 different interviews and got offers from 5 companies. The personalized responses based on my resume were spot-on. Amazing that it's completely free!",
       avatar: "MJ"
     },
     {
