@@ -629,128 +629,174 @@ export const VideoTutorialsSection = () => {
   );
 };
 
-// Pricing Section Component
-export const PricingSection = () => {
+// Download Section Component
+export const DownloadSection = () => {
   return (
-    <section id="pricing" className="py-20 bg-gray-50">
+    <section id="download" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900">
-            Simple, <span className="text-teal-600">Transparent Pricing</span>
+            Get Started <span className="text-teal-600">Instantly</span>
           </h2>
           <p className="text-xl text-gray-600">
-            One-time payment, no subscriptions. Own it forever.
+            Use directly in your browser or download our desktop app - both completely free forever
           </p>
         </div>
 
-        {/* Pricing Card */}
-        <div className="max-w-lg mx-auto">
-          <div className="bg-white rounded-2xl shadow-xl p-8 border-2 border-teal-200 relative">
-            {/* Popular Badge */}
-            <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-              <span className="bg-teal-600 text-white px-6 py-2 rounded-full text-sm font-semibold">
-                MOST POPULAR
-              </span>
-            </div>
-
+        {/* Download Options */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          {/* Web Version */}
+          <div className="bg-white rounded-2xl shadow-xl p-8 border-2 border-transparent hover:border-teal-200 transition-all duration-300 hover:-translate-y-2">
             <div className="text-center space-y-6">
-              {/* Price */}
-              <div className="space-y-2">
-                <div className="text-5xl font-bold text-gray-900">$29.50</div>
-                <div className="text-gray-500">One-time payment</div>
-                <div className="text-sm text-teal-600 font-medium">
-                  Lifetime access • No recurring fees
-                </div>
+              {/* Icon */}
+              <div className="w-20 h-20 bg-gradient-to-r from-teal-400 to-blue-500 rounded-full flex items-center justify-center mx-auto">
+                <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                </svg>
               </div>
 
-              {/* Features List */}
-              <div className="space-y-4 text-left">
+              {/* Title */}
+              <div className="space-y-2">
+                <h3 className="text-2xl font-bold text-gray-900">Web Version</h3>
+                <p className="text-gray-600">Use directly in your browser</p>
+              </div>
+
+              {/* Features */}
+              <div className="space-y-3 text-left">
                 <div className="flex items-center space-x-3">
                   <span className="text-teal-600">✓</span>
-                  <span className="text-gray-700">Unlimited interview sessions</span>
+                  <span className="text-gray-700">No download required</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <span className="text-teal-600">✓</span>
-                  <span className="text-gray-700">All video platforms supported</span>
+                  <span className="text-gray-700">Works on any device</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <span className="text-teal-600">✓</span>
-                  <span className="text-gray-700">Full coding interview assistance</span>
+                  <span className="text-gray-700">Always up-to-date</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <span className="text-teal-600">✓</span>
-                  <span className="text-gray-700">Resume-based personalization</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <span className="text-teal-600">✓</span>
-                  <span className="text-gray-700">50+ language support</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <span className="text-teal-600">✓</span>
-                  <span className="text-gray-700">Undetectable assistance</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <span className="text-teal-600">✓</span>
-                  <span className="text-gray-700">24/7 customer support</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <span className="text-teal-600">✓</span>
-                  <span className="text-gray-700">Free updates forever</span>
+                  <span className="text-gray-700">Cross-platform compatible</span>
                 </div>
               </div>
 
               {/* CTA Button */}
               <button className="w-full bg-teal-600 hover:bg-teal-700 text-white py-4 rounded-lg text-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl">
-                Get Instant Access
+                Launch Web App
               </button>
+            </div>
+          </div>
 
-              {/* Guarantee */}
-              <div className="text-center space-y-2">
-                <div className="text-sm text-gray-600">
-                  🛡️ 30-day money-back guarantee
+          {/* Desktop Version */}
+          <div className="bg-white rounded-2xl shadow-xl p-8 border-2 border-teal-200 relative hover:-translate-y-2 transition-all duration-300">
+            {/* Popular Badge */}
+            <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+              <span className="bg-teal-600 text-white px-6 py-2 rounded-full text-sm font-semibold">
+                RECOMMENDED
+              </span>
+            </div>
+
+            <div className="text-center space-y-6">
+              {/* Icon */}
+              <div className="w-20 h-20 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full flex items-center justify-center mx-auto">
+                <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M4 6h16v2H4zm0 5h16v6H4zm16-8H4c-1.11 0-2 .89-2 2v12c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V5c0-1.11-.89-2-2-2z"/>
+                </svg>
+              </div>
+
+              {/* Title */}
+              <div className="space-y-2">
+                <h3 className="text-2xl font-bold text-gray-900">Desktop App</h3>
+                <p className="text-gray-600">Enhanced performance & features</p>
+              </div>
+
+              {/* Features */}
+              <div className="space-y-3 text-left">
+                <div className="flex items-center space-x-3">
+                  <span className="text-teal-600">✓</span>
+                  <span className="text-gray-700">Faster performance</span>
                 </div>
-                <div className="text-xs text-gray-500">
-                  Secure payment processed by Stripe
+                <div className="flex items-center space-x-3">
+                  <span className="text-teal-600">✓</span>
+                  <span className="text-gray-700">Works offline</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <span className="text-teal-600">✓</span>
+                  <span className="text-gray-700">Advanced hotkeys</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <span className="text-teal-600">✓</span>
+                  <span className="text-gray-700">System integration</span>
+                </div>
+              </div>
+
+              {/* Download Buttons */}
+              <div className="space-y-3">
+                <button className="w-full bg-gradient-to-r from-teal-600 to-blue-600 hover:from-teal-700 hover:to-blue-700 text-white py-4 rounded-lg text-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                  Download for Windows
+                </button>
+                <div className="flex space-x-2">
+                  <button className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 py-2 rounded-lg font-medium transition-colors">
+                    macOS
+                  </button>
+                  <button className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 py-2 rounded-lg font-medium transition-colors">
+                    Linux
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        {/* FAQ Section */}
-        <div className="mt-16 max-w-3xl mx-auto">
-          <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
-            Frequently Asked Questions
-          </h3>
-          <div className="space-y-6">
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h4 className="font-semibold text-gray-900 mb-2">
-                Is this detectable by interviewers?
-              </h4>
-              <p className="text-gray-600">
-                No, our AI assistance is completely undetectable. It works through discrete overlays 
-                and encrypted communication that cannot be detected by video platforms or screen sharing.
-              </p>
+        {/* Features Comparison */}
+        <div className="mt-16 max-w-4xl mx-auto">
+          <div className="bg-white rounded-2xl shadow-lg p-8">
+            <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
+              Why Choose InterviewAI Pro?
+            </h3>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+              <div className="space-y-3">
+                <div className="text-3xl">🆓</div>
+                <h4 className="text-lg font-semibold text-gray-900">Completely Free</h4>
+                <p className="text-gray-600 text-sm">No hidden costs, no subscriptions, no limits. Use all features forever without paying a penny.</p>
+              </div>
+              
+              <div className="space-y-3">
+                <div className="text-3xl">🔒</div>
+                <h4 className="text-lg font-semibold text-gray-900">100% Private</h4>
+                <p className="text-gray-600 text-sm">Your data never leaves your device. Completely undetectable and secure interview assistance.</p>
+              </div>
+              
+              <div className="space-y-3">
+                <div className="text-3xl">⚡</div>
+                <h4 className="text-lg font-semibold text-gray-900">Lightning Fast</h4>
+                <p className="text-gray-600 text-sm">Real-time AI responses in under 0.5 seconds. Never miss a beat during your interview.</p>
+              </div>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h4 className="font-semibold text-gray-900 mb-2">
-                What platforms does it work with?
-              </h4>
-              <p className="text-gray-600">
-                We support all major video platforms (Zoom, Google Meet, Teams, WebEx) and coding 
-                platforms (LeetCode, HackerRank, CodeSignal). Works on Windows, Mac, and Linux.
-              </p>
+          </div>
+        </div>
+
+        {/* System Requirements */}
+        <div className="mt-12 text-center">
+          <div className="bg-gray-100 rounded-lg p-6 max-w-3xl mx-auto">
+            <h4 className="font-semibold text-gray-900 mb-3">System Requirements</h4>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-gray-600">
+              <div>
+                <strong>Windows:</strong> Windows 10 or later
+              </div>
+              <div>
+                <strong>macOS:</strong> macOS 10.14 or later
+              </div>
+              <div>
+                <strong>Linux:</strong> Ubuntu 18.04+ or equivalent
+              </div>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h4 className="font-semibold text-gray-900 mb-2">
-                How fast are the AI responses?
-              </h4>
-              <p className="text-gray-600">
-                Our AI provides responses in under 0.5 seconds with 95%+ accuracy. We use the latest 
-                GPT-4 technology optimized for interview scenarios.
-              </p>
-            </div>
+            <p className="text-xs text-gray-500 mt-3">
+              Web version works on any modern browser (Chrome, Firefox, Safari, Edge)
+            </p>
           </div>
         </div>
       </div>
