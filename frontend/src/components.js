@@ -75,7 +75,7 @@ export const HeroSection = () => {
           <div className="space-y-8">
             {/* Feature Badge */}
             <div className="inline-flex items-center px-4 py-2 bg-teal-100 text-teal-800 rounded-full text-sm font-medium">
-              🧠 FULL CODING INTERVIEW SUPPORT
+              🆓 100% FREE - NO SUBSCRIPTION NEEDED
             </div>
 
             {/* Main Headline */}
@@ -88,19 +88,20 @@ export const HeroSection = () => {
               
               <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
                 Automatically get an answer to every job interview question 
-                with ChatGPT AI software. An AI Interview copilot.
+                with ChatGPT AI software. Completely free forever.
               </p>
             </div>
 
             {/* CTA Button */}
             <div className="space-y-4">
               <button className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl">
-                TRY FOR FREE →
+                START FREE NOW →
               </button>
               
               <div className="flex items-center text-sm text-gray-500 space-x-4">
-                <span>💳 One-time payment</span>
-                <span>🚫 No subscription</span>
+                <span>🌐 Use in Browser</span>
+                <span>💻 Download Desktop App</span>
+                <span>🆓 Always Free</span>
               </div>
             </div>
 
