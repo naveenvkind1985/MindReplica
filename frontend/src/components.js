@@ -511,7 +511,7 @@ export const TestimonialsSection = () => {
           <div className="inline-flex items-center space-x-8 text-gray-500 text-sm">
             <div className="flex items-center space-x-2">
               <span className="text-green-500">✓</span>
-              <span>30-Day Money Back Guarantee</span>
+              <span>100% Free Forever</span>
             </div>
             <div className="flex items-center space-x-2">
               <span className="text-green-500">✓</span>
