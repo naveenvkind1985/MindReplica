@@ -26,8 +26,8 @@ export const Header = () => {
             <a href="#reviews" className="text-gray-700 hover:text-teal-600 px-3 py-2 text-sm font-medium transition-colors">
               Reviews
             </a>
-            <a href="#pricing" className="text-gray-700 hover:text-teal-600 px-3 py-2 text-sm font-medium transition-colors">
-              Pricing
+            <a href="#download" className="text-gray-700 hover:text-teal-600 px-3 py-2 text-sm font-medium transition-colors">
+              Download
             </a>
             <div className="relative">
               <a href="#desktop" className="text-gray-700 hover:text-teal-600 px-3 py-2 text-sm font-medium transition-colors flex items-center">
