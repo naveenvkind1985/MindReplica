@@ -830,7 +830,7 @@ export const Footer = () => {
             <h3 className="text-lg font-semibold">Product</h3>
             <div className="space-y-2">
               <a href="#features" className="block text-gray-400 hover:text-white transition-colors">Features</a>
-              <a href="#pricing" className="block text-gray-400 hover:text-white transition-colors">Pricing</a>
+              <a href="#download" className="block text-gray-400 hover:text-white transition-colors">Download</a>
               <a href="#reviews" className="block text-gray-400 hover:text-white transition-colors">Reviews</a>
               <a href="#tutorials" className="block text-gray-400 hover:text-white transition-colors">Tutorials</a>
             </div>
