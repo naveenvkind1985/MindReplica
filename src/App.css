@@ -1,0 +1,125 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.header {
+  background: #2563eb;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.context-selector {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+}
+
+.chat-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  background: #f8fafc;
+}
+
+.message {
+  max-width: 70%;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 1rem;
+  line-height: 1.4;
+}
+
+.user {
+  background: #2563eb;
+  color: white;
+  margin-left: auto;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.ai {
+  background: #e2e8f0;
+  margin-right: auto;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.system {
+  background: #94a3b8;
+  color: white;
+  margin: 1rem auto;
+  text-align: center;
+  max-width: 90%;
+}
+
+.suggestion {
+  background: #cbd5e1;
+  margin-right: auto;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.suggestion:hover {
+  background: #94a3b8;
+}
+
+.suggestion-button {
+  display: block;
+  margin-top: 0.5rem;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-area {
+  display: flex;
+  padding: 1rem;
+  background: white;
+  border-top: 1px solid #e2e8f0;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.5rem;
+  margin: 0 0.5rem;
+  outline: none;
+}
+
+.input-area input:focus {
+  border-color: #2563eb;
+}
+
+.mic-button {
+  background: #e2e8f0;
+  border: none;
+  width: 3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+.mic-button.active {
+  background: #ef4444;
+  color: white;
+}
+
+.send-button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 0 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background: #1d4ed8;
+}

@@ -63,7 +63,19 @@ cd MindReplica
 
 ```bash
 cd frontend
-npm install
+npm install react@18.2.0 react-dom@18.2.0 react-scripts@5.0.1
+npm install axios@1.6.7 express@4.18.2 mongoose@8.0.3
+npm install --save-dev electron@28.1.0 electron-builder@24.13.3
+
+npm list react-scripts
+Should now show: react-scripts@5.0.1
+
+npx create-react-app temp --template typescript
+xcopy /E /I temp\src src\
+xcopy /E /I temp\public public\
+copy temp\tsconfig.json .
+rmdir /s /q temp
+
 # or
 yarn install
 ```
