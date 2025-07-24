@@ -7,7 +7,7 @@ import {
   PlatformCompatibility, 
   TestimonialsSection, 
   VideoTutorialsSection, 
-  PricingSection, 
+  DownloadSection,
   Footer 
 } from './components';
 
@@ -20,7 +20,7 @@ function App() {
       <PlatformCompatibility />
       <TestimonialsSection />
       <VideoTutorialsSection />
-      <PricingSection />
+      <DownloadSection />
       <Footer />
     </div>
   );
