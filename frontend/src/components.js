@@ -620,7 +620,7 @@ export const VideoTutorialsSection = () => {
               Follow our quick setup guides and be interview-ready in under 10 minutes
             </p>
             <button className="bg-white text-teal-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-              Start Free Trial
+              Get Started Free
             </button>
           </div>
         </div>
